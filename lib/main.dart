@@ -317,7 +317,7 @@ class _SynthesizerWorkspaceState extends State<SynthesizerWorkspace> with Ticker
           if (showOverlay)
             Positioned.fill(
               child: Container(
-                color: Colors.black95,
+                color: Colors.black87,
                 child: Center(
                   child: ElevatedButton(
                     onPressed: _initializeAudioSystem,
